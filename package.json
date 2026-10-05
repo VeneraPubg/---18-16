@@ -1,0 +1,20 @@
+{
+  "name": "solid-payment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "lsp": "node dist/lsp-check.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
